@@ -1,4 +1,6 @@
-Running Project
+eBroker
+
+#Running Project
 To run this project, Navigate to folder Nagarro.NAGP.EBroker.API & execute following command:
 
 dotnet run
@@ -15,4 +17,4 @@ dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=cobertura /p:Coverle
 Now using the path for coverage file, execute following to generate html report:
 
 reportgenerator -reports:".\TestResults\Coverage\coverage.cobertura.xml" -targetdir:"coveragereport" -reporttypes:Html
-Results of the executed test cases and saved coverage report can be viewed in directory Nagarro.NAGP.EBroker\Nagarro.NAGP.EBroker.Tests\TestResults\Coverage and Nagarro.NAGP.EBroker\Nagarro.NAGP.EBroker.Tests\coveragereport respectively.
+Results of the executed test cases and saved coverage report can be viewed in directory - Nagarro.NAGP.EBroker\Nagarro.NAGP.EBroker.Tests\TestResults\Coverage and Nagarro.NAGP.EBroker\Nagarro.NAGP.EBroker.Tests\coveragereport respectively.
