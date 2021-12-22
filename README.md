@@ -8,7 +8,9 @@ To run this project, Navigate to folder Nagarro.NAGP.EBroker.API & execute follo
 
 ```dotnet run```
 
-_This will run the application on port 44332. All the services are accessible with [https://localhost:44332/equity] url. Also for documentation and use of API, I have used Swagger to enable user interation with controller. For using swager navigate to [https://localhost:44332/swagger]._
+_This will run the application on port 44332. All the services are accessible with URL [https://localhost:44332/equity](https://localhost:44332/equity)._
+
+_Also for documentation and use of API, I have used Swagger to enable user interation with controller. For using swagger navigate to [https://localhost:44332/swagger](https://localhost:44332/swagger)._
 
     When using Visual Studio, use Nagarro.NAGP.EBroker.sln, set Nagarro.NAGP.EBroker.API as startup project and run the application, It will run application on localhost and open the url in browser by default.
 
